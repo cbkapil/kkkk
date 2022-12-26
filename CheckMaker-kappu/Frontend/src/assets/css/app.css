@@ -1,0 +1,1156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.gentabletbody tr td{
+    margin: 0%;
+    padding: 0.5%;
+}
+
+.gentabletbody input{
+    width: 80px;
+}
+
+.acc33{
+    font-size: 1.2rem;
+}
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.gentabletbody tr td{
+    margin: 0%;
+    padding: 0.5%;
+    
+}
+
+.cmpny{
+    background-color: #01BAEF;
+}
+
+/* .react-swipeable-view-container  div{
+    overflow: hidden;
+} */
+
+
+
+.MuiBox-root >header{
+    box-shadow: none;
+}
+
+
+
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected.css-cjctlb-MuiButtonBase-root-MuiTab-root{
+    color: white;
+    background-color: var(--theme-d);
+}
+
+
+
+
+
+
+.gentabletbody tr td{
+    margin: 0%;
+    padding: 0.5%;
+    
+}
+
+
+
+
+
+.MuiBox-root >header{
+    box-shadow: none;
+}
+
+
+
+
+/* .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected.css-cjctlb-MuiButtonBase-root-MuiTab-root{
+    color: white;
+    background-color: #525f7f;
+} */
+
+
+
+
+
+.bg-default {
+    background: #f1f1f1;
+}
+
+
+
+
+
+small,.small{
+    color :  rgb(20, 16, 16) !important;
+}
+
+.py-7 {
+    padding-bottom: 0.3rem !important;
+    padding-top: 3rem !important;
+}
+
+
+
+.py-5{
+    padding-bottom: 0.5rem !important;
+}
+
+
+
+.input-group .form-control:not(:first-child) {
+    border: 0;
+}
+
+.dt-5{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dt-5 > .form-control{
+    width : 15%;
+}
+
+
+.dt-5 > button{
+    width : 15%;
+    height : 5vh;
+    padding: 0.5%;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.dt-5 > *{
+    margin-right: 0.5rem;
+    margin-block: 0.5rem;
+}
+
+.viewchequeslip{
+    text-align: center;
+    padding: 0.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height : 80vh; */
+    /* margin-top: 5%; */
+
+}
+
+.loader{
+    text-align: center;
+    display: flex;
+
+   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.MuiButtonBase-root-599 > div{
+    font-weight: bold;
+    font-size: 1rem ;
+}
+
+/* .acc2{
+
+    border : 2px solid rgb(245, 244, 245);
+}
+
+.acc2 > label{
+    width : 50% !important;
+} */
+
+.col222 > input{
+    width : 50% !important;
+}
+.fc-33{
+    color: rgba(255, 255, 255, 0.919);
+}
+
+
+/* Other Page Code Csss */
+
+/* *{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+.LContainer{
+    width : 50%;
+    height : 65vh;
+    background-color:  rgb(242, 246, 245);
+    margin-top: 6rem;
+}
+
+.image{
+    width : 100%;
+    height : auto;
+}
+
+.navi{
+    margin-top: 2rem;
+    display:  flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.navilink{
+    text-decoration:  none;
+    margin-left:  1rem;
+    
+}
+
+
+
+
+
+/* Dashboard Css Start */
+
+/* Navbar Css Start */
+
+.generatebtn{
+    margin-left: 25rem;
+}
+
+.formEntry{
+    width : 70%;
+    padding-left:  25rem;
+}
+
+.frbtn{
+    margin-left:  25rem;
+}
+
+.loginbtn{
+    height : 7vh;
+    width: 20%;
+    margin-left: 18rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.addBankbtn{
+    height : 7vh;
+    width: 20%;
+    margin-left: 18rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+    
+.linkbtn{
+    height : 7vh;
+    width: 20%;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.formCheck{
+    font-size: larger;
+    margin-bottom:  0.5rem;
+}
+/* -------------------------Sbi bank Slip css Code------------------- */ 
+
+/* Sbi bank Slip card code Start */
+.sbisubmitbtn{
+    margin-left: 50%;
+}
+
+
+.sbicard{
+    border: none;
+    margin-bottom: 0%;
+    /* height : 75vh; */
+
+
+}
+
+.scardbody{
+    border: 3px solid blue !important;
+    margin : 1%;
+    height : 80vh;
+}
+
+
+.cardtitle{
+    color : blue;
+}
+
+.cardsubtitle1{
+    color : blue;
+    font-size: 2rem;
+
+}
+
+.cardsubtitle2{
+    margin-left: 10rem;
+}
+
+.cardsubtitle3{
+    margin-left: 5rem;
+}
+
+.cardsubtitle4{
+    margin-left: 4rem;
+}
+
+.cardsubtitle4col{
+    border-bottom: 1px solid blue;
+}
+
+.logo{
+     margin-left:  1rem;
+    height : 11vh;
+    /* width : 65%; */
+}
+
+
+/* Sbi bank Slip card code Start */
+
+/* Sbi bank Slip card Text code Start */
+
+.cardtextfrowcol1{
+    font-size: 0.7rem;
+    color: blue !important;
+}
+
+.cardtextfrowcol2{
+    color : blue !important;
+    margin : 0%;
+    padding: 0%;
+    font-size: 1.2rem;
+    border : 1px solid blue !important;
+    padding-left: 1%;
+}
+
+.cardtextSrowcol1{
+    color: blue !important;
+}
+
+.cardtextSrowcol2{
+    color: blue !important;
+    border-bottom: 1px solid blue !important;
+}
+
+.react-bootstrap-table {
+    /* max-height: 100px;
+    overflow-y: scroll; */
+    border : 1px solid blue !important;
+    color : blue !important;
+    padding: 0%;
+    margin: 0%;
+  }
+
+/* .fourthrowtable{
+    border : 1px solid blue !important;
+    color : blue !important;
+    height : 200px;
+} */
+.fourthrowtable1{
+    border : 1px solid blue !important;
+    color : blue !important;
+    padding: 0%;
+    margin: 0%;
+    /* height : 60vh; */
+}
+
+.fifthrow{
+    border : 1px solid blue !important;
+    color : blue !important;
+}
+
+/* Second part of sbi Slip */
+
+.scardtitle{
+    /* border : 1px solid blue !important; */
+    color : blue;
+}
+
+/* .scardtitlerow{
+    border : 1px solid blue !important;
+} */
+
+.stitlecol{
+    border-right: 1px solid blue !important;
+}
+
+.scardsubtitle1{
+    color : blue;
+    font-size: 1.5rem;
+
+}
+
+.scardsubtitle2{
+    margin-left: 6rem;
+}
+
+.scardsubtitle3{
+    margin-left: 1.1rem;
+}
+
+.scardsubtitle4{
+    margin-left: 4rem;
+}
+
+.scardsubtitle4col{
+    border-bottom: 1px solid blue;
+}
+
+.slogo{
+    height: 11vh;
+    
+}
+
+.scardtitlecol1{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.fourthrowcol3{
+    margin-left: 15rem;
+}
+
+.scardtext{
+    color: blue !important;
+}
+
+.scardtextacc{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.cardsubtextcol{
+    border-bottom: 1px solid blue !important;
+    /* margin-right: 3rem; */
+}
+
+.tablebody{
+    margin-bottom : 3.5rem !important;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem !important;
+}
+
+.theadrow th{
+    font-size: 0.8rem;
+    margin: 0%;
+    padding : 0%;
+}
+
+.tablerow td {
+    margin: 0%;
+    padding : 0%;
+    /* height : 3vh; */
+}
+
+.fourthRow{
+    font-size: 0.8rem;
+}
+
+.theadrowcol{
+    font-size: 0.8rem;
+    margin: 0%;
+    padding : 0%;
+}
+
+/* Pnb Sliop Code */
+
+.pnblogo{
+    width : 100% !important;
+    height : 8vh !important;
+}
+
+.pnbparilogo{
+    width : 50%;
+    height: 8vh;
+}
+
+.pnbswachlogo{
+    width : 70%;
+    height : 8vh;
+}
+
+.pnbcatitbr{
+    border-bottom: 1px solid black !important;
+}
+
+.pncardtextfrowcol1{
+    font-size: 1.1rem;
+   
+}
+
+.pncardtextfrowcol2{
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+    border : 2px solid black !important;
+}
+
+.pnbtable{
+    border : 2px solid black !important;
+}
+
+.pncardtextlastrowcol{
+    border: 2px solid black !important;
+    /* margin-left: 5rem; */
+}
+
+.pncardtextlastrowcol1{
+    font-size: 0.7rem;
+    /* margin-left: 4rem; */
+}
+
+
+
+
+/* Responsive Screens Code */
+
+@media screen and (max-width: 500px ){
+    .LContainer{
+        width : 100%;
+        background-color:  rgb(242, 246, 245);
+        margin-top: 7rem;
+    }
+
+    
+.loginbtn{
+    height : 7vh;
+    width: 20%;
+    margin-left: 8.5rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+.addBankbtn{
+    height : 7vh;
+    width: 30%;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.generatebtn{
+    height : 7vh;
+    width: 40%;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+    
+.linkbtn{
+    height : 7vh;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.frbtn{
+    height : 7vh;
+    width: 50%;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+.mobile{
+    display: flex;
+  flex-direction: column;
+}
+
+
+}
+
+/* master Slip css Start */
+
+.MAccNo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.MAccNodata{
+    border : 0.2rem solid black;
+}
+
+.mastd{
+    margin-left: 13rem;
+}
+
+.masterName{
+    border-bottom: 1px solid black;
+}
+
+.colDt{
+    margin-left: 20rem;
+
+}
+
+
+.slipRsw{
+    margin-left: 3rem;
+    word-wrap: break-word;
+}
+
+.masters{
+    margin-left: 22rem;
+}
+
+.mastersw{
+    margin-left: 12rem;
+}
+
+.masterSign{
+    margin-top: 11rem;
+    margin-left: 28rem;
+}
+
+/* Other Page css end */
+
+/* css by jitu  */
+
+:root{
+    /* #43cb81 */
+    --theme : #05775c;
+    --theme-l : #f9fffc;
+    --theme-d : #034a39;
+
+    /* --theme : #27c2a0;
+    --theme-d : #1a8670;
+    --theme-l : #ecfff8; */
+
+    /* --theme : #2753c2;
+    --theme-d : #1a3884;
+    --theme-l : #e1e9ff; */
+}
+
+body{
+    /* background-color: #f5f5f5; */
+    background-color: #f0f0f0;
+}
+
+.container{
+    background: transparent;
+}
+
+.navbar-bg{
+    background: var(--theme); 
+}
+
+.auth-navbar {
+    width: 90%;
+    margin-inline: auto;
+    padding: 0;
+}
+
+
+.auth-navbar .navbar-brand{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+#sidenav-main{
+    /* background: linear-gradient(45deg, var(--theme), var(--theme-d)); */
+    background:linear-gradient(45deg, #38a38194, #3db150), url('../img/brand/bluegeo.png');
+    /* background:linear-gradient(45deg, #38a381, #3db150); */
+    box-shadow: none;
+    width: 100%;
+}
+
+.logincontainer{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.logincontainer .login-card{
+    width: 100%;
+   margin-inline: auto;
+   padding: 0.5rem 1rem;
+   border-radius: 4px;
+   background-color: #f9f9f9;
+   margin-block: 0.5rem;
+   border: 1px solid #ccc;
+   text-align: center;
+}
+
+.logincontainer .login-card .logincard-header{
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.logincontainer .login-card form{
+    padding: 0.5rem;
+    width: 340px;
+    margin-inline: auto;
+}
+
+.logincontainer .login-card .input-group-alternative{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logincontainer .carousel-card{
+    width: 100%;
+    margin-block: 0.5rem;
+    margin-inline: auto;
+    display: grid;
+    place-items: center;
+}
+
+.carousel-item{
+    width : 100%;
+}
+
+.banner-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 990px) {
+    .logincontainer{
+        flex-direction: row;
+    }
+
+    .logincontainer .login-card{
+        /* margin-right: 5px; */
+        max-width: 400px;
+    }
+
+    .logincontainer .carousel-card{
+        width: auto;
+        /* min-width: 500px; */
+        max-width: 65%;
+    }
+}
+
+.main-content{
+    position: relative;
+}
+
+/* a tag  */
+.navbar-light .navbar-brand{
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
+
+
+
+#navbar-main{
+    position: sticky;
+    height: 60px;
+    width: 100%;
+    color: var(--theme-d);
+    background-color: white;
+    z-index: 10;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#navbar-main a{
+    color: var(--theme-d);
+}
+
+
+
+.add-company-btn{
+    color: white;
+    background: linear-gradient(45deg, #38a381, #3db150);
+    
+}
+
+.MuiTableHead-root .MuiTableSortLabel-root:hover {
+    color: white;
+}
+
+.mycard-container{
+    position: relative;
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-block: 1rem;
+    background-color: #f0f0f0;
+}
+
+.table-container{
+    max-width: 1250px;
+}
+
+.navdivfirm{
+    margin-left: 30%;
+}
+.navdivfirm span{
+   margin : 10px 10px 0 0;
+   font-size: 20px;
+   color: white;
+   /* font-weight : 900; */
+}
+
+
+
+.card-navbar{
+    position: sticky;
+    top: 60px;
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    z-index: 1;
+    /* background-color: white; */
+    background: linear-gradient(45deg, #38a381, #3db150);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-nav h2{
+    color: white;
+    margin: 0;
+    font-weight: normal;
+}
+
+.add-company-btn{
+    background-color: #05775c;
+    font-size: 1rem;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.add-company-btn:hover{
+    color: #05775c;
+    background-color: white;
+    border: 1px solid #05775c;
+}
+
+.card-bg{
+    background-color: transparent;
+    border: none;
+}
+
+.mycard{
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.addcompany-form{
+    width: 100%;
+}
+
+.form-box{
+    position: relative;
+    margin-block: 1rem;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.bank-form{
+    background-color: white;
+    position: relative;
+}
+
+.bank-form:focus-within{
+    background: var(--theme-l);
+}
+
+.form-box h2{
+    font-size: 1.1rem;
+    color: rgb(118, 118, 118);
+    font-weight: 500;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.form-box .input,
+.form-box .input1,
+.form-box .input2{
+    flex: 1;
+}
+
+.form-box .input,
+.form-box .input1 .form-group,
+.form-box .input2 .form-group{
+    padding-inline: 1rem;
+}
+
+.form-box .fetching{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.form-control-label{
+    color: #313131;
+    font-weight: normal;
+}
+
+.form-control{
+    /* height: calc(1em + 1.1rem + 1px); */
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    color : #202020 !important;
+    box-shadow: none;
+}
+
+.cancel-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    background-color: rgb(194, 16, 16);
+}
+
+
+
+.MuiBox-root >header >div >div > div{
+    justify-content: flex-end;
+    background: red;
+}
+
+.button-section{
+    display: flex;
+    justify-content: flex-start;
+    /* padding-inline: 10px; */
+}
+
+.button-section .add-btn{
+    padding: 0;
+    height: 32px;
+    width: 32px;
+    border-radius: 4px;
+    color: var(--theme-d);
+    border-color: var(--theme-d);
+    background: var(--theme-l);
+}
+
+
+.companybutton{
+    display: flex;
+    justify-content: center;
+}
+
+.companybutton button{
+    margin-block: 1rem;
+    padding:6px 12px;
+    border: none;
+    color: #fff;
+    background: var(--theme-d);
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+
+.MuiTabs-scroller .MuiTabs-flexContainer{
+    background: linear-gradient(45deg, #38a381, #3db150);
+}
+
+.MuiBox-root >header >div >div > div > button{
+    border: none;
+    font-size: 12px;
+    background-color: var(--theme-l);
+}
+
+.MuiTabs-scroller .MuiTabs-indicator{
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #f0f0f0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link-icon{
+    color: #f0f0f0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+    background-color: var(--theme);
+}
+
+.swipeview{
+    padding-block: 0.5rem;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.cashSlip-view{
+    position : relative;
+    width : 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.cashSlip-view .cash-form{
+    width: 350px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    /* border: 1px solid var(--theme); */
+}
+
+.cash-form .form-field{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 10px;
+    margin-block: 5px;
+}
+
+.cash-form .MuiAutocomplete-root{
+    margin: 0;
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input{
+     width : auto; 
+}
+
+
+
+/* .cash-form .MuiAutocomplete{
+
+} */
+
+.cashSlip-view .cash-table{
+    border-radius: 6px;
+    background-color: white;
+}
+
+.cashSlip-view .cash-table,
+.cashSlip-view .cash-form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.table-responsive table{
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.MuiTableCell-root{
+    font-size: 10px;
+}
+
+
+.tabpanel{
+    display: flex;
+    justify-content: center;
+}
+
+.tabpanel .form-box{
+    padding-block: 1rem;
+}
+
+
+.tabpanel .button-section{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.user-button{
+    padding: 4px;
+    border-radius: 4px;
+    border: 2px solid var(--theme);
+    background:  linear-gradient(45deg, #38a381, #3db150);
+}
+
+.user-button span{
+    color: white;
+}
+
+/* end of css by jitu  */
+
+
